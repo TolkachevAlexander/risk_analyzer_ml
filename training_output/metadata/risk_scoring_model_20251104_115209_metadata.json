@@ -1,0 +1,108 @@
+{
+    "model": "<lightgbm.basic.Booster object at 0x000001E2AA1E7A60>",
+    "metrics": {
+        "train_mse": 0.08436246619289241,
+        "val_mse": 0.08476006097025575,
+        "test_mse": 0.08506533164760302,
+        "train_rmse": 0.2904521753970736,
+        "val_rmse": 0.29113581189928484,
+        "test_rmse": 0.291659616072577
+    },
+    "feature_importance": {
+        "field5": 3.2348529398441315,
+        "field4": 3.0075800120830536,
+        "field2": 2.659701019525528,
+        "field3": 2.3278039693832397,
+        "field11": 2.2547959685325623,
+        "field16": 2.246348023414612,
+        "field12": 1.986186921596527,
+        "field8": 1.8900379538536072,
+        "field15": 1.761592984199524,
+        "field1": 1.756190001964569,
+        "field10": 1.5781829953193665,
+        "field6": 1.0591550171375275,
+        "field17": 1.0572559833526611,
+        "field9": 0.9543759822845459,
+        "field7": 0.797789990901947,
+        "field19": 0.7468000054359436,
+        "field20": 0.6848970055580139,
+        "field18": 0.6029620170593262,
+        "field14": 0.44620099663734436,
+        "field13": 0.4078870117664337
+    },
+    "config": {
+        "model_type": "regression",
+        "test_size": 0.2,
+        "random_state": 42,
+        "validation_size": 0.1,
+        "learning_rate": 0.05,
+        "n_estimators": 1000,
+        "max_depth": 8,
+        "num_leaves": 63,
+        "min_child_samples": 15,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0,
+        "early_stopping_rounds": 50,
+        "verbose": 1
+    },
+    "training_date": "2025-11-04T11:52:10.518624",
+    "feature_columns": [
+        "field1",
+        "field2",
+        "field3",
+        "field4",
+        "field5",
+        "field6",
+        "field7",
+        "field8",
+        "field9",
+        "field10",
+        "field11",
+        "field12",
+        "field13",
+        "field14",
+        "field15",
+        "field16",
+        "field17",
+        "field18",
+        "field19",
+        "field20"
+    ],
+    "training_info": {
+        "total_records": 10000,
+        "valid_records": 10000,
+        "invalid_records": 0
+    },
+    "top_features": [
+        {
+            "rank": 1,
+            "feature": "field5",
+            "importance": 3.2348529398441315,
+            "importance_percentage": 10.282236412818166
+        },
+        {
+            "rank": 2,
+            "feature": "field4",
+            "importance": 3.0075800120830536,
+            "importance_percentage": 9.559831401854872
+        },
+        {
+            "rank": 3,
+            "feature": "field2",
+            "importance": 2.659701019525528,
+            "importance_percentage": 8.454070456597854
+        },
+        {
+            "rank": 4,
+            "feature": "field3",
+            "importance": 2.3278039693832397,
+            "importance_percentage": 7.399109381784849
+        },
+        {
+            "rank": 5,
+            "feature": "field11",
+            "importance": 2.2547959685325623,
+            "importance_percentage": 7.167047665616055
+        }
+    ]
+}
